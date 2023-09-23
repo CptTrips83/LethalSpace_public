@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8266832192198793061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3301233691813367743}
+  - component: {fileID: 7966987147511722193}
+  m_Layer: 0
+  m_Name: PlanetSurface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3301233691813367743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266832192198793061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.107959, y: -2.0853438, z: -3.322864}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7966987147511722193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266832192198793061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2aa414a9f4f7341949359e3d00b916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGMaterial: {fileID: 2100000, guid: b45b4ea6948e9a840a5c88ebcd824e25, type: 2}
+  baseSpawnParallaxWahrscheinlichkeit: 0.25
+  spawnableParallaxPrefabs:
+  - {fileID: 434858560621179929, guid: 0669d365b83a51e4e9d4213d2e51c25b, type: 3}
+  - {fileID: 434858560621179929, guid: 7c4c6b42e0d9d47419e573e4d1db22fd, type: 3}
+  - {fileID: 434858560621179929, guid: 4d7cbedef618d074aa20a0223404d6eb, type: 3}
+  - {fileID: 434858560621179929, guid: f3508498bc86a8e4f8b74402895b329b, type: 3}
+  - {fileID: 434858560621179929, guid: 46040bfcd8fe313489bb3fa624830683, type: 3}
+  - {fileID: 434858560621179929, guid: 495908c7278448640be9016925490770, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  - {fileID: 6396678601240114290, guid: d1fa8190e7e4e5e4a916c0b6ffbc920f, type: 3}
+  baseSpawnParallaxPassiveWahrscheinlichkeit: 2
+  spawnableParallaxPassivePrefabs:
+  - {fileID: 1370149144684404668, guid: 60f3313f30e692440ae8d6832d5deec9, type: 3}
+  - {fileID: 6576035970159914338, guid: 022f9463360f5b14dbc0d183cab7b7de, type: 3}
+  - {fileID: 2500727188938558839, guid: 6dd6707f98a094f4bb3eedefb73d3b0a, type: 3}
+  - {fileID: 3177365082380982157, guid: 1516f2a823571254380c3ae17fc10418, type: 3}
+  baseSpawnWahrscheinlichkeit: 0.1
+  spawnablePrefabs:
+  - {fileID: 4866827563119837173, guid: 4e972a9bc3887a14aabd562a49503906, type: 3}
+  - {fileID: 4866827563119837173, guid: 82a521069861d844e83116ec28cdc965, type: 3}
+  - {fileID: 7133682217803891004, guid: edf2ae5802486fb42a6b82427b4d558d, type: 3}
+  - {fileID: 4866827563119837173, guid: f92274da19cea9b42a89caca43aff0cf, type: 3}
+  basePowerUpWahrscheinlichkeit: 0.05
+  spawnablePowerUps:
+  - {fileID: 813415553414415158, guid: 54c214ebb9fe16346977664616225765, type: 3}
+  - {fileID: 8736773167971264892, guid: 1a6f218f93d69e148a90894f1df7855b, type: 3}
+  - {fileID: 2896530027235534258, guid: fdc86984c5b9b4d44beb552c0f62324a, type: 3}
+  maxIdleTime: 3
+  enemiesOnScreenLimit: 4
+  maxIdleTimePowerUp: 6
+  powerUpsOnScreenLimit: 2
+  SecondsToBoss: 300
+  spawnableBossPrefab:
+  - {fileID: 4484228576383357677, guid: 0c8a3422153b8e749899443f40a83c76, type: 3}
+  soundtrack: 1
